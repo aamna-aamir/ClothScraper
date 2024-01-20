@@ -21,6 +21,6 @@ which can be easily imported into other applications for further analysis. <br/>
 
 
 #### Program Output:
-- An example output file, product_details.csv is included and is generated when a user inputs 'black pants' for the search <br\>
+- An example output file, product_details.csv is included and is generated when a user inputs 'black pants' as the item searched for
 - ReadingCSV.html contains some sample code on how the information would be read into a webpage
 
