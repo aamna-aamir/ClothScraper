@@ -12,7 +12,7 @@ The project is built using Python and the BeautifulSoup library, which is a popu
 The code is designed to be modular and easy to use, allowing users to customize the scraping process to fit their needs. The scraped data is stored in a CSV file,
 which can be easily imported into other applications for further analysis.
 
-<br/> 
+<br/> <br/>
 ##### Program Output:
 - An example output file, product_details.csv is included and is generated when a user inputs 'black pants' <br\>
 - ReadingCSV.html contains some sample code on how the information would be read into a webpage. 
