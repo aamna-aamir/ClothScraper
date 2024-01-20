@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        
+        <ul> 
+
+        </ul>
+
+    </body>
+
+    <script> 
+        
+        async function CreateList() {
+            const response= await fetch('product_details.csv');
+            const data= await response.text();
+
+            const format= data.split('\n');
+            const lineArr = format.slice(1)
+            const headings= format[0]
+            
+
+            lineArr.forEach(line => {
+                let ce= document.createElement('li');
+                const elem= line.split('\t')
+                
+                // customize this part mainly
+                let struct= `<div> 
+                                <p> brand = ${elem[0]} </p> 
+                                <p> Name =  ${elem[1]}</p>
+                                <p> Price =  ${elem[3]} </p>
+                                <p> composition =  ${elem[4]} </p>
+                                <a href= ${elem[4]} > link to product</a>
+                                <div> <a href= ${elem[4]}> link to image that redirects to product <img src=${elem[5]}> </a> </div> 
+                             </div>`;
+                
+
+                ce.innerHTML = struct
+                if (ce.innerText !== "") {
+                    document.querySelector('ul').appendChild(ce);
+                }
+
+            })
+        }
+
+        CreateList();
+        
+    </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
