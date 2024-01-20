@@ -1,8 +1,8 @@
 # ClothScraper
 
 
-ClothScraper is a web scraping project that extracts data from various clothing websites, including H&M, Aritzia, and Ardene. 
-The project aims to provide users with a comprehensive database of clothing items, including their prices, descriptions, images, material composition, and links to each product.
+ClothScraper is a web scraping project that extracts data from various clothing websites including H&M, Aritzia, and Ardene. 
+The project aims to provide users with a comprehensive database of clothing items, including their names, prices, descriptions, images, material composition, and links to each product.
 The data can be used for various purposes, such as price comparison, trend analysis, and fashion research.
 
 
@@ -17,6 +17,6 @@ which can be easily imported into other applications for further analysis.
 
 
 ##### Program Output:
-- An example output file, product_details.csv is included and is generated when a user inputs 'black pants' <br\>
-- ReadingCSV.html contains some sample code on how the information would be read into a webpage. 
+- An example output file, product_details.csv is included and is generated when a user inputs 'black pants' for the search <br\>
+- ReadingCSV.html contains some sample code on how the information would be read into a webpage
 
